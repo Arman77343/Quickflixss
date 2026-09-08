@@ -22,7 +22,8 @@ app.get("/api/health", (req, res) => {
 app.get("/api/content", (req, res) => {
   res.json([
     { id: 1, title: "Premium Video", category: "Movies", price: 25 },
-    { id: 2, title: "Series Pack", category: "Series", price: 49 },
+    { id: 2, title: "Series Pack",
+  category: "Series", price: 49 },
     { id: 3, title: "Cartoon Pack", category: "Cartoons", price: 29 }
   ]);
 });
